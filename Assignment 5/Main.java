@@ -7,16 +7,16 @@ public class Main {
             // 1. Create Customers
             ArrayList<Customer> customers = new ArrayList<>();
 
-            Customer c1 = new Customer("C001", "Kavish", "Nag",
-                "kavish.nag@gmail.com", "9829326907", "Pune",
+            Customer c1 = new Customer("C001", "Kavan", "Patel",
+                "kavan.patel@gmail.com", "9829326907", "Pune",
                 "1234 5678 9101", "ABCDE1234F");
 
-            Customer c2 = new Customer("C002", "Priya", "Sharma",
-                "priya.sharma@gmail.com", "9876543210", "Mumbai",
+            Customer c2 = new Customer("C002", "Arjun", "Mehta",
+                "arjun.mehta@gmail.com", "9876543210", "Mumbai",
                 "9876 5432 1098", "XYZAB5678G");
 
-            Customer c3 = new Customer("C003", "Rohan", "Mehta",
-                "rohan.mehta@gmail.com", "9123456789", "Delhi",
+            Customer c3 = new Customer("C003", "Sneha", "Rao",
+                "sneha.rao@gmail.com", "9123456789", "Delhi",
                 "1234 1234 1234", "PQRST9012H");
 
             customers.add(c1);
@@ -42,16 +42,16 @@ public class Main {
             // 3. Perform Transactions
             System.out.println("\n========= Performing Transactions =========");
 
-            System.out.println("\n--- Savings Account (Kavish) ---");
+            System.out.println("\n--- Savings Account (Kavan) ---");
             sa1.deposit(5000);
             sa1.withdraw(3000);
             sa1.calculateInterest();
 
-            System.out.println("\n--- Loan Account (Kavish) ---");
+            System.out.println("\n--- Loan Account (Kavan) ---");
             la1.displayLoan();
             la1.deposit(la1.monthlyEMI);
 
-            System.out.println("\n--- Savings Account (Priya) ---");
+            System.out.println("\n--- Savings Account (Arjun) ---");
             sa2.deposit(10000);
             sa2.withdraw(5000);
             sa2.calculateInterest();
