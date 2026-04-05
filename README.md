@@ -1,33 +1,7 @@
-<h1 align="center">Programming With Java</h1>
+# ☕ Programming with Java
 
-<div align="center">
-  ![Java](https://img.shields.io/badge/Java-informational?style=flat&logo=java&logoColor=white) 
-</div>
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
 
-## 📌 Description
-A modern, well-structured repository for Programming With Java. 
-This project focuses on writing clean, efficient, and well-organized code.
+A high-density archive of complex Java procedural and object-oriented assignments. Designed to train developers on the JVM ecosystem architecture ranging from primitive multi-threading loops to intense file-parsing infrastructures.
 
-## 🚀 Getting Started
-
-### Prerequisites
-Make sure you have the required environment installed for the primary language:
-- Java
-
-### Installation
-Clone the repository:
-```bash
-git clone https://github.com/kavanpatel18/Programming-with-Java.git
-cd Programming-with-Java
-```
-
-## 📂 Repository Structure
-*The file structure is organized for clarity and best practices.*
-
-## 🤝 Contributing
-Contributions, issues, and feature requests are welcome!
-
-<div align="center">
-  <br/>
-  <b>Made with ❤️ by Kavan Patel</b>
-</div>
+Focuses intensely on syntactic purity, class inheritance, exception bubbling architectures, and data sanitization within strictly typed environments.
